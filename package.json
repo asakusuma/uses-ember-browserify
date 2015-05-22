@@ -1,6 +1,6 @@
 {
   "name": "uses-ember-browserify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -18,9 +18,11 @@
   },
   "author": "Asa Kusuma",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "underscore": "*",
     "ember-browserify": "*",
+    },
+  "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
     "ember-cli": "0.2.5",
     "ember-cli-app-version": "0.3.3",
